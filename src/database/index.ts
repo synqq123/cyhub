@@ -7,7 +7,7 @@ const connection = connectionPool.promise();
 
 connectionPool.getConnection((err, connection) => {
   if(err) {
-    console.log('connect fail!!', err);
+    console.log('connect fail!', err);
     return;
   }
 
